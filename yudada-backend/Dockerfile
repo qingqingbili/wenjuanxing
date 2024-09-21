@@ -15,5 +15,7 @@ COPY src ./src
 # 打包构建
 RUN mvn package -DskipTests
 
+EXPOSE 8101
+
 # 容器启动时运行 jar 包
 CMD ["java","-jar","/app/target/yudada-backend-0.0.1-SNAPSHOT.jar","--spring.profiles.active=prod"]
