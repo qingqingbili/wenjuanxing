@@ -10,7 +10,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://sh-cynosdbmysql-grp-9vhjkuqc.sql.tencentcdb.com:28323/yudada
     username: root
-    password: 13979047952AsS!
+    password: 13979047952sS!
   # Redis 配置
   #  需替换配置
   redis:
@@ -29,7 +29,7 @@ spring:
         driver-class-name: com.mysql.cj.jdbc.Driver
         jdbc-url: jdbc:mysql://sh-cynosdbmysql-grp-9vhjkuqc.sql.tencentcdb.com:28323/yudada
         username: root
-        password: 13979047952AsS!
+        password: 13979047952sS!
     # 规则配置
     rules:
       sharding:
